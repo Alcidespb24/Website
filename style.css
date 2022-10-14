@@ -1,0 +1,94 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #171717;
+    box-sizing: border-box;
+    margin: 0px;
+    height: 100%;
+}
+
+header {
+    color: white;
+    font-size: 30;
+    margin-top: 40px;
+}
+
+.first_container {
+    float: left;
+    background-color: #2B2B2B;
+    color: white;
+    margin: 0.4% 0.4% 0% 0%;
+    padding: 15px 0px 15px 0px;
+    border-radius: 12px;
+    width: 25%;
+}
+
+.second_container {
+    float: left;
+    background-color: #2B2B2B;
+    color: white;
+    margin: 0.4% 0.4% 0% 0%;
+    padding: 15px 0px 15px 0px;
+    border-radius: 12px;
+    width: 25%;
+}
+
+.third_container {
+    float: left;
+    background-color: #2B2B2B;
+    color: white;
+    margin: 0.4% 0.4% 0% 0%;
+    padding: 15px 0px 15px 0px;
+    border-radius: 12px;
+    width: 25%;
+}
+
+hr {
+    background: rgb(226, 223, 223);
+    opacity: 0.2;
+    height: 0px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.table td{
+    font-weight: 90px;
+    text-align: center;
+    justify-self: flex-end;
+    margin: 0px 200px 0px 200px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.screen {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    left: 20%;
+    padding-bottom: 100px;
+}
+
+.number{
+    display: inline-block;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #971e48;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 18px;
+    line-height: unset;
+    margin-right: 10px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
