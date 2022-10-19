@@ -130,7 +130,6 @@ hr {
         font-size: 30;
         margin-top: 50px;
         margin-bottom: 50px;
-        margin-left: 35%;
     }
     .number{
         padding-left: 7px;
@@ -139,45 +138,42 @@ hr {
 
 @media only screen and (min-width:750px){
     .screen{
-        width: 100%;
         position: absolute;
         top:75px;
         margin-top: 15px;
-        margin-right: 0px;
-        z-index: 2;
     }
     .first_container{
-        float: left;
-        margin: 0.4% 0.4% 0% 0.4%;
-        padding: 50px;
-        width: 100%;
+        float:none;
+        margin: 10px 10px 0px 0px;
+        padding: 20px;
+        width: 30%;
     }
     .second_container{
-        float: left;
-        margin: 0.4% 0.4% 0% 0.4%;
-        padding: 50px;
-        width: 100%;
+        float: none;
+        margin: 10px 10px 0px 0px;
+        padding: 20px;
+        width: 30%;
     }
     .third_container{
-        float: left;
-        margin: 0.4% 0.4% 0% 0.4%;
-        padding: 50px;
-        width: 100%;
+        float: none;
+        margin: 10px 10px 0px 0px;
+        padding: 20px;
+        width: 30%;
     }
     .table td{
         font-weight: 90px;
         text-align: center;
         justify-self: flex-end;
-        margin: 0px 0px 0px 20px;
+        margin: 0px 100px 0px 100px;
     }
     header {
         color: white;
         font-size: 30;
         margin-top: 50px;
         margin-bottom: 50px;
-        margin-left: 35%;
+        margin-right: 180px;
     }
     .number{
-        padding-left: 7px;
+        padding-left: 8px;
     }
 }
