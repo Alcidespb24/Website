@@ -97,25 +97,26 @@ hr {
         width: 100%;
         position: absolute;
         top:75px;
-        margin-left: 0px;
+        margin-top: 15px;
+        margin-right: 0px;
         z-index: 2;
     }
     .first_container{
         float: left;
-        margin: 0.4% 0.4% 0% 0%;
-        padding: 15px 0px 15px 0px;
+        margin: 0.4% 0.4% 0% 0.4%;
+        padding: 15px;
         width: 25%;
     }
     .second_container{
         float: left;
-        margin: 0.4% 0.4% 0% 0%;
-        padding: 15px 0px 15px 0px;
+        margin: 0.4% 0.4% 0% 0.4%;
+        padding: 15px;
         width: 25%;
     }
     .third_container{
         float: left;
-        margin: 0.4% 0.4% 0% 0%;
-        padding: 15px 0px 15px 0px;
+        margin: 0.4% 0.4% 0% 0.4%;
+        padding: 15px;
         width: 25%;
     }
     .table td{
