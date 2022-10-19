@@ -95,6 +95,9 @@ hr {
 @media only screen and (max-width:700px){
     .screen{
         width: 100%;
-        
+        position: absolute;
+        top:75px;
+        right:0;
+        z-index: 2;
     }
 }
