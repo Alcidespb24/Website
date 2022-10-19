@@ -136,3 +136,48 @@ hr {
         padding-left: 7px;
     }
 }
+
+@media only screen and (max-width:750px){
+    .screen{
+        width: 100%;
+        position: absolute;
+        top:75px;
+        margin-top: 15px;
+        margin-right: 0px;
+        z-index: 2;
+    }
+    .first_container{
+        float: left;
+        margin: 0.4% 0.4% 0% 0.4%;
+        padding: 50px;
+        width: 25%;
+    }
+    .second_container{
+        float: left;
+        margin: 0.4% 0.4% 0% 0.4%;
+        padding: 50px;
+        width: 25%;
+    }
+    .third_container{
+        float: left;
+        margin: 0.4% 0.4% 0% 0.4%;
+        padding: 50px;
+        width: 25%;
+    }
+    .table td{
+        font-weight: 90px;
+        text-align: center;
+        justify-self: flex-end;
+        margin: 0px 0px 0px 20px;
+    }
+    header {
+        color: white;
+        font-size: 30;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 35%;
+    }
+    .number{
+        padding-left: 7px;
+    }
+}
