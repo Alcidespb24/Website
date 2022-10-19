@@ -4,7 +4,6 @@
 body {
     background-color: #171717;
     box-sizing: border-box;
-    margin: 0px;
     height: 100%;
 }
 
@@ -98,26 +97,25 @@ hr {
         position: absolute;
         top:75px;
         margin-top: 15px;
-        margin-right: 0px;
-        z-index: 2;
+        margin-left: 0px;
     }
     .first_container{
         float:none;
         margin: 10px 0px 0px 0px;
-        padding: 50px 90px 50px 50px;
-        width: 30%;
+        padding: 50px;
+        width: 50%;
     }
     .second_container{
         float: none;
-        margin: 10px 10px 0px 0px;
-        padding: 50px 90px 50px 50px;
-        width: 30%;
+        margin: 10px 0px 0px 0px;
+        padding: 50px;
+        width: 50%;
     }
     .third_container{
         float: none;
-        margin: 10px 10px 0px 0px;
-        padding: 50px 90px 50px 50px;
-        width: 30%;
+        margin: 10px 0px 0px 0px;
+        padding: 50px;
+        width: 50%;
     }
     .table td{
         font-weight: 90px;
@@ -134,46 +132,8 @@ hr {
     .number{
         padding-left: 7px;
     }
-}
-
-@media only screen and (min-width:750px){
-    .screen{
-        position: absolute;
-        top:75px;
-        margin-top: 15px;
-    }
-    .first_container{
-        float:none;
-        margin: 10px 10px 0px 0px;
-        padding: 20px;
-        width: 30%;
-    }
-    .second_container{
-        float: none;
-        margin: 10px 10px 0px 0px;
-        padding: 20px;
-        width: 30%;
-    }
-    .third_container{
-        float: none;
-        margin: 10px 10px 0px 0px;
-        padding: 20px;
-        width: 30%;
-    }
-    .table td{
-        font-weight: 90px;
+    .title{
         text-align: center;
-        justify-self: flex-end;
-        margin: 0px 100px 0px 100px;
-    }
-    header {
-        color: white;
-        font-size: 30;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-right: 180px;
-    }
-    .number{
-        padding-left: 8px;
+        margin-left: 0px;
     }
 }
