@@ -1,7 +1,6 @@
 * {
     text-align: center;
 }
-
 body {
     background-color: #171717;
     box-sizing: border-box;
@@ -91,4 +90,11 @@ hr {
     font-size: 18px;
     letter-spacing: 0.3px;
     font-weight: 500;
+}
+
+@media only screen and (max-width:700px){
+    .screen{
+        width: 100%;
+        
+    }
 }
