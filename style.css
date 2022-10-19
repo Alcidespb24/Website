@@ -102,28 +102,28 @@ hr {
         z-index: 2;
     }
     .first_container{
-        float: left;
-        margin: 0.4% 0.4% 0% 0.4%;
-        padding: 50px;
-        width: 25%;
+        float:none;
+        margin: 10px 0px 0px 0px;
+        padding: 50px 90px 50px 50px;
+        width: 30%;
     }
     .second_container{
-        float: left;
-        margin: 0.4% 0.4% 0% 0.4%;
-        padding: 50px;
-        width: 25%;
+        float: none;
+        margin: 10px 10px 0px 0px;
+        padding: 50px 90px 50px 50px;
+        width: 30%;
     }
     .third_container{
-        float: left;
-        margin: 0.4% 0.4% 0% 0.4%;
-        padding: 50px;
-        width: 25%;
+        float: none;
+        margin: 10px 10px 0px 0px;
+        padding: 50px 90px 50px 50px;
+        width: 30%;
     }
     .table td{
         font-weight: 90px;
         text-align: center;
         justify-self: flex-end;
-        margin: 0px 0px 0px 20px;
+        margin: 0px 50px 0px 50px;
     }
     header {
         color: white;
